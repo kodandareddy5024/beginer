@@ -1,0 +1,355 @@
+/**************************** tag selectors*************************************** */
+body {
+  margin: 0;
+}
+a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+h2 {
+  color: hsl(243, 94%, 11%);
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 25px;
+}
+h4 {
+  color: hsl(243, 94%, 11%);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+p {
+  color: hsl(0, 0%, 50%);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+
+span {
+  display: block;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  line-height: 2;
+}
+
+.big-heading{
+  max-width: 90%;
+  color: #ffffff;
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align:left;
+
+}
+
+
+
+
+
+/* class selector */
+.container-fluid {
+  padding: 0;
+}
+
+/* header section  */
+.header {
+  background-image: linear-gradient(to right, hsl(243, 84%, 22%), #5f43ce);
+  background-color: hsl(243, 49%, 30%);
+  padding-top: 50px;
+}
+
+/* navbar section  */
+.logo {
+  margin-left: 20px;
+  width: 15%;
+}
+/* buttons */
+.signUpBtn {
+  background: hsl(163, 95%, 43%);
+  background-image: -webkit-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: -moz-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: -ms-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: -o-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: linear-gradient(to bottom, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 2px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.signUpBtn:hover {
+  text-decoration: none;
+}
+.getstartedBtn {
+
+  background: hsl(163, 95%, 43%);
+  background-image: -webkit-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: -moz-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: -ms-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: -o-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: linear-gradient(to bottom, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 90px 10px 90px;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+}
+
+.getstartedBtn:hover {
+  text-decoration: none;
+}
+
+
+/*banner section*/
+.topBanner-image {
+  max-width: 90%;
+  padding-top: 30px;
+}
+.topBanner {
+  max-width: 100%;
+  margin: 30px 0 0 0;
+}
+
+.textOnBanner {
+  margin-top: 40px;
+}
+
+
+/* middle container */
+.middleContainerImg {
+  margin-top: 50px;
+  max-width: 100%;
+  height: 60%;
+}
+
+.row {
+  margin: 0;
+}
+
+/* middle container ended   */
+/*  bottom section started */
+.bottomDiv {
+  text-align: center;
+  width: 100%;
+}
+
+.joinbutton {
+  background: hsl(163, 95%, 43%);
+  background-image: -webkit-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: -moz-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: -ms-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: -o-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: linear-gradient(to bottom, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 8px 70px 8px 70px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.joinbutton:hover {
+  text-decoration: none;
+}
+
+.parag {
+  color: hsl(243, 90%, 24%);
+  font-weight: 700px;
+  text-align: center;
+}
+
+.bottomDivInput {
+  border-radius: 4px;
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: ridge;
+  border-right-style: ridge;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 300px;
+  height: 40px;
+}
+
+/*                          bottom section ended                                */
+/*                          footer section started                                */
+.footer {
+  background-color: hsl(243, 49%, 30%);
+  color: white;
+  max-width: 100%;
+  margin-top: 30px;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.btmlogo {
+  margin-left: 0;
+}
+
+.division1 {
+  line-height: 3;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.icons {
+  margin-right: 10px;
+}
+
+.division2 {
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-top: 0;
+  border-bottom: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.division3 p {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  text-align: center;
+}
+
+.division3 {
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.joinButtonInFooter {
+  background: hsl(163, 95%, 43%);
+  background-image: -webkit-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: -moz-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: -ms-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: -o-linear-gradient(top, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  background-image: linear-gradient(to bottom, hsl(163, 95%, 43%), hsl(163, 95%, 43%));
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  float: right;
+  padding: 3px 60px 3px 60px;
+  text-decoration: none;
+}
+
+.joinButtonInFooter:hover {
+  text-decoration: none;
+}
+
+.footerInput {
+  border: 1px;
+  border-radius: 5px;
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: ridge;
+  border-right-style: ridge;
+  float: right;
+  padding: 5px 15px;
+}
+
+/* footer section ended */
+/*media query for tab */
+@media screen and (max-width:900px) {
+
+  /*class selectors  */
+  .logo {
+    width: 100px;
+  }
+
+  .division2 {
+    border: 0;
+    order: 3;
+  }
+
+  .division3 {
+    margin-left: 0;
+    order: 2;
+    width: 75%;
+  }
+
+  .joinbutton {
+    padding: 7px 80px 7px 80px;
+  }
+
+  /*media query for mobile*/
+  @media screen and (max-width:600px) {
+
+
+  .big-heading{
+      text-align: center;
+    }
+
+
+    .signInLink {
+      margin-right: 10px;
+      position: absolute;
+      right: 100px;
+      width: 100px;
+    }
+
+    .signUpBtn {
+      position: absolute;
+      right: 10px;
+      top: 45px;
+      width: 100px;
+    }
+
+    .textOnBanner {
+      text-align: center;
+      order: 2;
+      padding-left: 100px;
+    }
+
+    .header {
+      height: 850px;
+    }
+
+    .getStartedBtn {
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+
+    .bottomDivInput {
+      margin-right: 10px;
+       padding-left: 50px;
+    }
+
+    .division2 {
+      border: 0;
+      order: 3;
+    }
+
+    .division3 {
+      margin-left: 0;
+      order: 2;
+      width: 100%;
+    }
+      .footer
+  }
